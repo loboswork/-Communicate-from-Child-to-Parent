@@ -40,6 +40,17 @@
             </template>
           </lightning-layout-item>
 
+          <lightning-layout-item flexibility="auto" padding="around-small" onbuttonclick={handleDivide}>
+            <template for:each={dividefactors} for:item="dividefactor">
+              <c-button
+                key={dividefactor}
+                label={dividefactor}
+                data-factor={dividefactor}
+                icon="utility:formula">
+              </c-button>
+            </template>
+          </lightning-layout-item>
+
           <lightning-layout-item flexibility="auto" padding="around-small">
             <lightning-button
               label="Add"
