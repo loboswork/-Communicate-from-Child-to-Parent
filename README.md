@@ -1,3 +1,15 @@
+![image](https://user-images.githubusercontent.com/30801658/138887676-60ddd124-e4dc-47fb-9443-36dee4ba51b5.png)
+
+
+
+
+# move local git project to GitHub
+git remote add cfc2p https://github.com/loboswork/-Communicate-from-Child-to-Parent.git
+
+git push -u cfc2p master
+
+login with git user/password
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
